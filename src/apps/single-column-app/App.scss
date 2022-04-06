@@ -1,0 +1,16 @@
+.app {
+  width: 20rem;
+  margin: 2rem auto;
+}
+
+.task {
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+  transition: box-shadow 300ms ease;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  &--is-dragging {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3), 0 1rem 1rem rgba(0, 0, 0, 0.1);
+  }
+}

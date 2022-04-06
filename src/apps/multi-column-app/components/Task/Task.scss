@@ -1,0 +1,13 @@
+.Task {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid silver;
+  background-color: white;
+  margin-bottom: 0.5rem;
+
+  &--is-dragging {
+    background-color: lightseagreen;
+  }
+}
